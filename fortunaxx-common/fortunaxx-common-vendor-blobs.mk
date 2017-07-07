@@ -119,6 +119,7 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so \
 	$(LOCAL_PATH)/vendor/lib/libmmjpeg.so:system/vendor/lib/libmmjpeg.so \
 	$(LOCAL_PATH)/vendor/lib/libmmipl.so:system/vendor/lib/libmmipl.so \
+	$(LOCAL_PATH)/vendor/lib/libmmcamera_faceproc.so:system/vendor/lib/libmmcamera_faceproc.so \
 	$(LOCAL_PATH)/lib/libjpega.so:system/lib/libjpega.so \
 	$(LOCAL_PATH)/lib/libexifa.so:system/lib/libexifa.so
 	
