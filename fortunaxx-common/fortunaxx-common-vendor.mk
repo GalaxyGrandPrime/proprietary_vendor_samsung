@@ -139,7 +139,9 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/vendor/lib/libmmipl.so:system/vendor/lib/libmmipl.so \
 	$(LOCAL_PATH)/vendor/lib/libmmcamera_faceproc.so:system/vendor/lib/libmmcamera_faceproc.so \
 	$(LOCAL_PATH)/lib/libjpega.so:system/lib/libjpega.so \
-	$(LOCAL_PATH)/lib/libexifa.so:system/lib/libexifa.so
+	$(LOCAL_PATH)/lib/libexifa.so:system/lib/libexifa.so \
+	$(LOCAL_PATH)/cameradata/datapattern_420sp.yuv:system/cameradata/datapattern_420sp.yuv \
+	$(LOCAL_PATH)/cameradata/datapattern_front_420sp.yuv:system/cameradata/datapattern_front_420sp.yuv
 
 # Media
 PRODUCT_COPY_FILES += \
